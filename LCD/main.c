@@ -18,8 +18,8 @@
 
 int main(void)
 {
-	 PORTD = 0xff;
-	 DDRD = 0xff;
+	 PORTC = 0xff;
+	 DDRC = 0xff;
 	LCD_init();
     /* Replace with your application code */
     while (1) 
