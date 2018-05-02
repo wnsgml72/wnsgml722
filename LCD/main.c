@@ -24,7 +24,11 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
+		LCD_goto_XY(1,1);
 		LCD_write_string("HELLOW");
+		_delay_ms(200);
+		LCD_goto_XY(2,1);
+		LCD_write_string("WORLD");
 		_delay_ms(200);
     }
 }
