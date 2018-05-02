@@ -26,10 +26,21 @@ int main(void)
     {
 		LCD_goto_XY(1,1);
 		LCD_write_string("HELLOW");
-		_delay_ms(200);
+		_delay_ms(500);
 		LCD_goto_XY(2,1);
+
 		LCD_write_string("WORLD3");
 		_delay_ms(200);
+
+		LCD_write_string("WORLD4");
+		_delay_ms(500);
+				LCD_goto_XY(2,1);
+				LCD_write_string("HELLOW");
+				_delay_ms(500);
+				LCD_goto_XY(1,1);
+				LCD_write_string("WORLD4");
+				_delay_ms(500);
+
     }
 }
 
